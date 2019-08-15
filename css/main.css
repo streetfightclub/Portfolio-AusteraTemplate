@@ -63,7 +63,9 @@ img[alt*="nout"]{
 .input-message{
 	height: 200px;
 }
-
+.hover-text h3{
+	padding-right: 20px;
+}
 .about-us-1:hover .hover-text,
 .about-us-2:hover .hover-text,
 .about-us-3:hover .hover-text,
@@ -88,5 +90,6 @@ img[alt*="nout"]{
 	.hover-text h3{
 		font-size: 14px !important;
 		margin-right: 24px;
+		padding-right: 0;
 	}
 }
